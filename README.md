@@ -8,6 +8,6 @@ To load the utility functions in this repo place the following in your profile o
     ##-------------------------------------------
     ## Load Script Libraries
     ##-------------------------------------------
-    $libPath = "D:\Documents\GitHub\powershell-utils"
+    $libPath = "Path-to-the-repository"
     Clear-Host
     Get-ChildItem -LiteralPath $libPath -Filter "*.ps1" | ForEach-Object {. (Join-Path $libPath $_.Name)} | Out-Null
